@@ -6,7 +6,9 @@
   "scripts": {
     "test": "mocha",
     "start": "node app.js",
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "lint": "eslint secondChance-backend",
+    "lint:fix": "eslint secondChance-backend --fix"
   },
   "keywords": [],
   "author": "",

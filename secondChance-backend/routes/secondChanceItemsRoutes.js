@@ -141,7 +141,7 @@ router.delete("/:id", async (req, res, next) => {
     }
     //Step 6: task 4 - insert code here
     await collection.deleteOne({ id });
-    res.json({ deleted: "success" });
+    res.json({ deleted: "success" })
   } catch (e) {
     next(e);
   }
